@@ -1,27 +1,37 @@
-import React from 'react';
-import Logo from '../Logo/Logo'; 
+import React from "react";
+import Logo from "../Logo/Logo";
+import css from "./Header.module.css";
 
 const Header = () => {
   return (
-    <header>
+    <header className={css.header}>
       <nav>
-        {/* Левый блок с логотипом */}
-        <div>
+        <div className={css.logoContainer}>
           <Logo />
         </div>
 
-        {/* Правый блок с навигацией (якорные ссылки) */}
-        <ul>
-          <li>
-            <a href="#about-me">About Me</a>
+        <ul className={css.navList}>
+          <li className={css.navItem}>
+            <a className={css.navLink} href="#about-me">
+              About Me
+            </a>
           </li>
-          <li>
-            <a href="#my-project">My Project</a>
+          <li className={css.navItem}>
+            <a className={css.navLink} href="#my-project">
+              My Project
+            </a>
           </li>
-          <li>
-            <a href="#contacts">Contacts</a>
+          <li className={css.navItem}>
+            <a className={css.navLink} href="#contacts">
+              Contacts
+            </a>
           </li>
         </ul>
+
+        <div className={css.switchers}>
+          <button className={css.switcherBtn}>Dark/Light</button>
+          <button className={css.switcherBtn}>EN/UA</button>
+        </div>
       </nav>
     </header>
   );

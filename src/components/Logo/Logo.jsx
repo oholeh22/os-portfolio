@@ -1,12 +1,12 @@
-import s from './Logo.module.css'
-import Logo1 from '/Logo1.png'
+import s from "./Logo.module.css";
+import Logo3 from "/Logo3.png";
 
 const Logo = () => {
-    return (
-        <div className={s.logo}>
-            <img src={Logo1} alt="Oleh Shyian Logo" />
-        </div>
-    )
-}
+  return (
+    <div className={s.logo}>
+      <img src={Logo3} alt="Oleh Shyian Logo" />
+    </div>
+  );
+};
 
 export default Logo;
