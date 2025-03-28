@@ -1,6 +1,8 @@
 import "./App.css";
+import AboutMe from "./components/AboutMe/AboutMe";
 import CosmosBackground from "./components/CosmosBackground/CosmosBackground";
 import Header from "./components/Header/Header";
+import HeroSection from "./components/HeroSection/HeroSection";
 
 
 function App() {
@@ -8,6 +10,8 @@ function App() {
     <>
     <CosmosBackground />
     <Header />
+    <HeroSection />
+    <AboutMe />
     </>
   )
 }
