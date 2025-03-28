@@ -15,19 +15,13 @@ const AboutMe = () => {
           </div>
           <div className={css.text}>
             <p>
-              Hello! I'm a junior Front-End Developer with a strong desire to
-              grow and create. I'm focused on building clean, responsive, and
-              user-friendly websites using modern technologies.
+            {t('About1')}
             </p>
             <p>
-              I have experience with HTML5, CSS3, JavaScript, React, and Git. I
-              can help you build landing pages, adaptive layouts, interactive
-              interfaces, and bring your design ideas to life in the browser.
+            {t('About2')}
             </p>
             <p>
-              I'm constantly learning and improving my skills, and I truly
-              believe that consistency beats talent. Let’s create something
-              great together!
+            {t('About3')}
             </p>
           </div>
         </div>

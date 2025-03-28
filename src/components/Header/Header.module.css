@@ -180,7 +180,6 @@ nav {
   .navList {
     font-size: 18px;
     gap: 1rem;
-    margin-top: 10px;
   }
 
   .switchers {
@@ -191,12 +190,12 @@ nav {
 
 @media (max-width: 480px) {
   .navList {
-    font-size: 14px;
-    gap: 0.8rem;
+    gap: 0.3rem;
+    align-items: center;
   }
 
   .navLink {
-    font-size: 14px;
+    font-size: 12px;
   }
 
   .switcherBtn {
