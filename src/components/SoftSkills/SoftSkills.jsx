@@ -24,16 +24,16 @@ const SoftSkills = () => {
       const width = window.innerWidth;
 
       if (width <= 480) {
-        setVisibleCount(8); // мобилки
+        setVisibleCount(8); 
       } else if (width <= 1024) {
-        setVisibleCount(9); // планшеты
+        setVisibleCount(9); 
       } else {
-        setVisibleCount(10); // десктоп
+        setVisibleCount(10); 
       }
     };
 
-    handleResize(); // запускаем один раз
-    window.addEventListener('resize', handleResize); // отслеживаем изменения
+    handleResize(); 
+    window.addEventListener('resize', handleResize); 
 
     return () => window.removeEventListener('resize', handleResize);
   }, []);

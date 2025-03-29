@@ -4,6 +4,7 @@ import CosmosBackground from "./components/CosmosBackground/CosmosBackground";
 import Header from "./components/Header/Header";
 import HeroSection from "./components/HeroSection/HeroSection";
 import SoftSkills from "./components/SoftSkills/SoftSkills";
+import TechSkills from "./components/TechSkills/TechSkills";
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
     <HeroSection />
     <AboutMe />
     <SoftSkills />
+    <TechSkills />
     </>
   )
 }

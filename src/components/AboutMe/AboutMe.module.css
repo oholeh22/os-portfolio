@@ -53,13 +53,29 @@
   }
   
   @media (max-width: 768px) {
+    .title {
+      font-size: 28px;
+    }
     .content {
-      flex-direction: column;
+      flex-direction: row;
       text-align: center;
+      flex-wrap: nowrap;
     }
   
     .text {
       text-align: center;
+      font-size: 17px;
+    }
+  }
+
+  @media (max-width: 475px) {
+    .text {
+      font-size: 15px;
+    }
+    .content {
+      flex-direction: column;
+      text-align: center;
+      flex-wrap: wrap;
     }
   }
   
