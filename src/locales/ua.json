@@ -20,6 +20,11 @@
   "Emotional Intelligence": "Емоційний інтелект",
   "Initiative": "Ініціативність"
   },
-  "techSkills": "Технічні навички"
+  "techSkills": "Технічні навички",
+  "Projects": "Мої проєкти",
+  "teamProjects": "Командні проєкти",
+  "personalProjects": "Особисті проєкти",
+  "load": "Завантажити більше",
+  "view": "Переглянути проект"
   }
   

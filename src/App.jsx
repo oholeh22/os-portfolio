@@ -3,6 +3,7 @@ import AboutMe from "./components/AboutMe/AboutMe";
 import CosmosBackground from "./components/CosmosBackground/CosmosBackground";
 import Header from "./components/Header/Header";
 import HeroSection from "./components/HeroSection/HeroSection";
+import MyProjects from "./components/Projects/Projects";
 import SoftSkills from "./components/SoftSkills/SoftSkills";
 import TechSkills from "./components/TechSkills/TechSkills";
 
@@ -16,6 +17,7 @@ function App() {
     <AboutMe />
     <SoftSkills />
     <TechSkills />
+    <MyProjects />
     </>
   )
 }

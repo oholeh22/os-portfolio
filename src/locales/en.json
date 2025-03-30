@@ -20,6 +20,11 @@
   "Emotional Intelligence": "Emotional Intelligence",
   "Initiative": "Initiative"
   },
-  "techSkills": "Tech Skills"
+  "techSkills": "Tech Skills",
+  "Projects": "My Projects",
+  "teamProjects": "Team Projects",
+  "personalProjects": "Personal Projects",
+  "load": "Load More",
+  "view": "View Project"
   }
   
