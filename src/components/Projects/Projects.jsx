@@ -42,6 +42,12 @@ const personalProjects = [
     image: '/public/studio.png',
     url: 'https://oholeh22.github.io/goit-markup-hw-06/',
   },
+  {
+    id: 4,
+    title: 'Personal Project 4',
+    image: '/public/gallery.png',
+    url: 'https://oholeh22.github.io/goit-js-hw-12/',
+  },
 ];
 
 const MyProjects = () => {
