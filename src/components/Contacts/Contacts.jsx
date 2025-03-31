@@ -11,7 +11,7 @@ const Contacts = () => {
       <div className={css.headerContainer}>
         <h2 className={css.title}>Contacts</h2>
         <img
-          src="/src/assets/bell.svg"
+          src="/assets/bell.svg"
           alt="Bell Icon"
           className={css.bellIcon}
           onClick={handleBellClick}
@@ -24,7 +24,7 @@ const Contacts = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src="/src/assets/github.svg" alt="GitHub" className={css.icon} />
+          <img src="/assets/github.svg" alt="GitHub" className={css.icon} />
         </a>
         <a
           href="https://www.linkedin.com/in/olehshyian/"
@@ -32,7 +32,7 @@ const Contacts = () => {
           rel="noopener noreferrer"
         >
           <img
-            src="/src/assets/linkedin.svg"
+            src="/assets/linkedin.svg"
             alt="LinkedIn"
             className={css.icon}
           />
@@ -43,7 +43,7 @@ const Contacts = () => {
           rel="noopener noreferrer"
         >
           <img
-            src="/src/assets/instagram.svg"
+            src="/assets/instagram.svg"
             alt="Instagram"
             className={css.icon}
           />
@@ -53,7 +53,7 @@ const Contacts = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src="/src/assets/gmail.svg" alt="Gmail" className={css.icon} />
+          <img src="/assets/gmail.svg" alt="Gmail" className={css.icon} />
         </a>
         <a
           href="https://t.me/oneshiyan"
@@ -61,7 +61,7 @@ const Contacts = () => {
           rel="noopener noreferrer"
         >
           <img
-            src="/src/assets/telegram.svg"
+            src="/assets/telegram.svg"
             alt="Telegram"
             className={css.icon}
           />
@@ -70,7 +70,7 @@ const Contacts = () => {
 
       <div className={css.location}>
         <img
-          src="/src/assets/location.svg"
+          src="/assets/location.svg"
           alt="Location"
           className={css.locationIcon}
         />

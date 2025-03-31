@@ -6,19 +6,19 @@ const teamProjects = [
   {
     id: 1,
     title: "Team Project 1",
-    image: "/public/aqua.png",
+    image: "/aqua.png",
     url: "https://aquacoders.vercel.app/",
   },
   {
     id: 2,
     title: "Team Project 2",
-    image: "/public/jefferson.png",
+    image: "/jefferson.png",
     url: "https://denyshv1.github.io/team-portfolio-js/",
   },
   {
     id: 3,
     title: "Team Project 3",
-    image: "/public/watch.png",
+    image: "/watch.png",
     url: "https://alisa777gul.github.io/project-SmartCats/",
   },
 ];
@@ -27,25 +27,25 @@ const personalProjects = [
   {
     id: 1,
     title: "Personal Project 1",
-    image: "/public/groom.png",
+    image: "/groom.png",
     url: "https://didykgroom.com/",
   },
   {
     id: 2,
     title: "Personal Project 2",
-    image: "/public/weather.png",
+    image: "/weather.png",
     url: "https://weather-app-ten-pi-90.vercel.app/",
   },
   {
     id: 3,
     title: "Personal Project 3",
-    image: "/public/studio.png",
+    image: "/studio.png",
     url: "https://oholeh22.github.io/goit-markup-hw-06/",
   },
   {
     id: 4,
     title: "Personal Project 4",
-    image: "/public/gallery.png",
+    image: "/gallery.png",
     url: "https://oholeh22.github.io/goit-js-hw-12/",
   },
 ];

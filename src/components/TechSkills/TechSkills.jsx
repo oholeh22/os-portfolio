@@ -3,17 +3,17 @@ import css from "./TechSkills.module.css";
 import { useTranslation } from "react-i18next";
 
 const techSkills = [
-  { name: "JavaScript", image: "/src/assets/js.svg" },
-  { name: "HTML", image: "/src/assets/html.svg" },
-  { name: "CSS", image: "/src/assets/css.svg" },
-  { name: "Figma", image: "/src/assets/figma.svg" },
-  { name: "Git", image: "/src/assets/git.svg" },
-  { name: "REST API", image: "/src/assets/API.svg" },
-  { name: "Vite", image: "/src/assets/VITE.svg" },
-  { name: "Vercel", image: "/src/assets/vercel.svg" },
-  { name: "NPM", image: "/src/assets/npm.svg" },
-  { name: "VSC", image: "/src/assets/vsc.svg" },
-  { name: "React", image: "/src/assets/react.svg" },
+  { name: "JavaScript", image: "/assets/js.svg" },
+  { name: "HTML", image: "/assets/html.svg" },
+  { name: "CSS", image: "/assets/css.svg" },
+  { name: "Figma", image: "/assets/figma.svg" },
+  { name: "Git", image: "/assets/git.svg" },
+  { name: "REST API", image: "/assets/API.svg" },
+  { name: "Vite", image: "/assets/VITE.svg" },
+  { name: "Vercel", image: "/assets/vercel.svg" },
+  { name: "NPM", image: "/assets/npm.svg" },
+  { name: "VSC", image: "/assets/vsc.svg" },
+  { name: "React", image: "/assets/react.svg" },
 ];
 
 const TechSkills = () => {
