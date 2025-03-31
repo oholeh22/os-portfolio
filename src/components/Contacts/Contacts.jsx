@@ -1,15 +1,20 @@
 import React from "react";
 import css from "./Contacts.module.css";
+import { useTranslation } from "react-i18next";
 
 const Contacts = () => {
+    const { t } = useTranslation();
+
   const handleBellClick = () => {
     window.open("https://t.me/oneshiyan", "_blank");
   };
 
+  
+
   return (
     <section id="contacts" className={css.contacts}>
       <div className={css.headerContainer}>
-        <h2 className={css.title}>Contacts</h2>
+        <h2 className={css.title}>{t("contacts")}</h2>
         <img
           src="/assets/bell.svg"
           alt="Bell Icon"
@@ -66,7 +71,7 @@ const Contacts = () => {
           alt="Location"
           className={css.locationIcon}
         />
-        <span>Amsterdam, Netherlands</span>
+        <span>{t("location")}</span>
       </div>
 
       <a
@@ -75,7 +80,7 @@ const Contacts = () => {
         rel="noopener noreferrer"
         className={css.resumeButton}
       >
-        Download Resume
+        {t("resume")}
       </a>
     </section>
   );
