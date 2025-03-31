@@ -75,6 +75,7 @@ const MyProjects = () => {
                 <img
                   src={project.image}
                   alt={project.title}
+                  loading="lazy"
                   className={css.projectImage}
                 />
                 <button
@@ -100,6 +101,7 @@ const MyProjects = () => {
                 <img
                   src={project.image}
                   alt={project.title}
+                  loading="lazy"
                   className={css.projectImage}
                 />
                 <button

@@ -11,7 +11,7 @@ const AboutMe = () => {
         <h2 className={css.title}>{t("aboutMe")}</h2>
         <div className={css.content}>
           <div className={css.imageWrapper}>
-            <img src="/myself.jpg" alt="My Portrait" className={css.image} />
+            <img src="/myself.jpg" loading="lazy" alt="My Portrait" className={css.image} />
           </div>
           <div className={css.text}>
             <p>{t("About1")}</p>
