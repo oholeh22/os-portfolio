@@ -77,7 +77,7 @@ const Contacts = () => {
         <span>Amsterdam, Netherlands</span>
       </div>
 
-      <a href="/public/ShyianCV.pdf" download className={css.resumeButton}>
+      <a href="/public/Oleh_Shyian_JuniorFrontendDeveloper.pdf" download className={css.resumeButton}>
         Download Resume
       </a>
     </section>
