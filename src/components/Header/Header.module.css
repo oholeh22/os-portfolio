@@ -9,13 +9,13 @@
     rgba(25, 52, 87, 0.557)
   );
   padding: 15px 0;
-  margin: 20px;
+  margin: 0 auto;
   overflow: hidden;
 }
 
 .header::before,
 .header::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 80px;
   height: 2px;
@@ -81,9 +81,6 @@ nav {
   margin: 0;
   padding: 0;
   list-style: none;
-}
-
-.navItem {
 }
 
 .navLink {
@@ -178,7 +175,7 @@ nav {
   }
 
   .navList {
-    font-size: 18px;
+    font-size: 16px;
     gap: 1rem;
   }
 

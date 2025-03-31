@@ -1,80 +1,78 @@
 .hero {
-    position: relative;
-    background-image: url('/bgsection.jpg'); 
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 80vh;
-    color: #ffffff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    overflow: hidden;
-    margin: 20px;
+  position: relative;
+  background-image: url("/bgsection.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+  margin: 20px;
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+      ellipse at center,
+      rgba(0, 0, 0, 0) 40%,
+      rgba(0, 0, 0, 0.6) 100%
+    ),
+    rgba(0, 0, 0, 0.4);
+  z-index: 1;
+  pointer-events: none;
+}
+
+.overlay {
+  position: relative;
+  z-index: 2;
+  padding: 40px;
+  border-radius: 16px;
+}
+
+.name {
+  font-size: 36px;
+  font-weight: 600;
+  background: linear-gradient(90deg, #ffffff, #00d0ff, #ff6ec4);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  text-shadow: 0 0 6px rgba(255, 255, 255, 0.3);
+}
+
+.title {
+  font-size: 56px;
+  font-weight: 700;
+  background: linear-gradient(90deg, #ffffff, #00d0ff, #ff6ec4);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  text-shadow: 0 0 12px rgba(255, 255, 255, 0.5);
+}
+
+.quote {
+  font-size: 20px;
+  font-style: italic;
+  color: #c8e4ff;
+  text-shadow: 0 0 4px rgba(255, 255, 255, 0.3);
+  opacity: 0.9;
+}
+
+@media (max-width: 768px) {
+  .name {
+    font-size: 28px;
   }
 
-  
-  .hero::after {
-    content: '';
-    position: absolute;
-    inset: 0;
-    background: radial-gradient(
-        ellipse at center,
-        rgba(0, 0, 0, 0) 40%,
-        rgba(0, 0, 0, 0.6) 100%
-      ),
-      rgba(0, 0, 0, 0.4); 
-    z-index: 1;
-    pointer-events: none;
-  }
-  
-  .overlay {
-    position: relative;
-    z-index: 2;
-    padding: 40px;
-    border-radius: 16px;
-  }
-  
-  .name {
-    font-size: 36px;
-    font-weight: 600;
-    background: linear-gradient(90deg, #ffffff, #00d0ff, #ff6ec4);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-    text-shadow: 0 0 6px rgba(255, 255, 255, 0.3);
-  }
-  
   .title {
-    font-size: 56px;
-    font-weight: 700;
-    background: linear-gradient(90deg, #ffffff, #00d0ff, #ff6ec4);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-    text-shadow: 0 0 12px rgba(255, 255, 255, 0.5);
+    font-size: 36px;
   }
-  
+
   .quote {
-    font-size: 20px;
-    font-style: italic;
-    color: #c8e4ff;
-    text-shadow: 0 0 4px rgba(255, 255, 255, 0.3);
-    opacity: 0.9;
+    font-size: 16px;
   }
-  
-  @media (max-width: 768px) {
-    .name {
-      font-size: 28px;
-    }
-  
-    .title {
-      font-size: 36px;
-    }
-  
-    .quote {
-      font-size: 16px;
-    }
-  }
-  
+}

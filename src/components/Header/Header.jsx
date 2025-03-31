@@ -2,18 +2,18 @@ import React from "react";
 import Logo from "../Logo/Logo";
 import css from "./Header.module.css";
 import { useTranslation } from "react-i18next";
-import gbFlag from '../../assets/gb.svg';
-import uaFlag from '../../assets/ua.svg';
+import gbFlag from "../../assets/gb.svg";
+import uaFlag from "../../assets/ua.svg";
 
 const Header = () => {
   const { t, i18n } = useTranslation();
 
   const toggleLang = () => {
-    const newLang = i18n.language === 'EN' ? 'UA' : 'EN';
+    const newLang = i18n.language === "EN" ? "UA" : "EN";
     i18n.changeLanguage(newLang);
   };
 
-  const isUA = i18n.language === 'UA';
+  const isUA = i18n.language === "UA";
 
   return (
     <header className={css.header}>
@@ -25,17 +25,17 @@ const Header = () => {
         <ul className={css.navList}>
           <li className={css.navItem}>
             <a className={css.navLink} href="#about-me">
-            {t('aboutMe')}
+              {t("aboutMe")}
             </a>
           </li>
           <li className={css.navItem}>
             <a className={css.navLink} href="#my-project">
-            {t('myProject')}
+              {t("myProject")}
             </a>
           </li>
           <li className={css.navItem}>
             <a className={css.navLink} href="#contacts">
-            {t('contacts')}
+              {t("contacts")}
             </a>
           </li>
         </ul>

@@ -14,15 +14,9 @@ const AboutMe = () => {
             <img src="/myself.jpg" alt="My Portrait" className={css.image} />
           </div>
           <div className={css.text}>
-            <p>
-            {t('About1')}
-            </p>
-            <p>
-            {t('About2')}
-            </p>
-            <p>
-            {t('About3')}
-            </p>
+            <p>{t("About1")}</p>
+            <p>{t("About2")}</p>
+            <p>{t("About3")}</p>
           </div>
         </div>
       </div>

@@ -1,24 +1,24 @@
 {
-    "aboutMe": "About Me",
-    "myProject": "My Project",
-    "contacts": "Contacts",
-    "language": "EN",
-    "heroQuote": "Practice makes your perfect!",
-    "About1": "Hello! I'm a junior Front-End Developer with a strong desire to grow and create. I'm focused on building clean, responsive, and user-friendly websites using modern technologies.",
-    "About2": "I have experience with HTML5, CSS3, JavaScript, React, and Git. I can help you build landing pages, adaptive layouts, interactive interfaces, and bring your design ideas to life in the browser.",
-    "About3": "I'm constantly learning and improving my skills, and I truly believe that consistency beats talent. Let’s create something great together",
-    "softSkillsTitle": "Soft Skills",
+  "aboutMe": "About Me",
+  "myProject": "My Project",
+  "contacts": "Contacts",
+  "language": "EN",
+  "heroQuote": "Practice makes your perfect!",
+  "About1": "Hello! I'm a junior Front-End Developer with a strong desire to grow and create. I'm focused on building clean, responsive, and user-friendly websites using modern technologies.",
+  "About2": "I have experience with HTML5, CSS3, JavaScript, React, and Git. I can help you build landing pages, adaptive layouts, interactive interfaces, and bring your design ideas to life in the browser.",
+  "About3": "I'm constantly learning and improving my skills, and I truly believe that consistency beats talent. Let’s create something great together",
+  "softSkillsTitle": "Soft Skills",
   "soft": {
-  "Communication": "Communication",
-  "Teamwork": "Teamwork",
-  "Problem Solving": "Problem Solving",
-  "Adaptability": "Adaptability",
-  "Time Management": "Time Management",
-  "Critical Thinking": "Critical Thinking",
-  "Creativity": "Creativity",
-  "Responsibility": "Responsibility",
-  "Emotional Intelligence": "Emotional Intelligence",
-  "Initiative": "Initiative"
+    "Communication": "Communication",
+    "Teamwork": "Teamwork",
+    "Problem Solving": "Problem Solving",
+    "Adaptability": "Adaptability",
+    "Time Management": "Time Management",
+    "Critical Thinking": "Critical Thinking",
+    "Creativity": "Creativity",
+    "Responsibility": "Responsibility",
+    "Emotional Intelligence": "Emotional Intelligence",
+    "Initiative": "Initiative"
   },
   "techSkills": "Tech Skills",
   "Projects": "My Projects",
@@ -26,5 +26,4 @@
   "personalProjects": "Personal Projects",
   "load": "Load More",
   "view": "View Project"
-  }
-  
+}

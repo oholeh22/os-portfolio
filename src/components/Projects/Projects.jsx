@@ -1,67 +1,67 @@
-import React, { useState } from 'react';
-import css from './Projects.module.css';
+import React, { useState } from "react";
+import css from "./Projects.module.css";
 import { useTranslation } from "react-i18next";
 
 const teamProjects = [
   {
     id: 1,
-    title: 'Team Project 1',
-    image: '/public/aqua.png',
-    url: 'https://aquacoders.vercel.app/',
+    title: "Team Project 1",
+    image: "/public/aqua.png",
+    url: "https://aquacoders.vercel.app/",
   },
   {
     id: 2,
-    title: 'Team Project 2',
-    image: '/public/jefferson.png',
-    url: 'https://denyshv1.github.io/team-portfolio-js/',
+    title: "Team Project 2",
+    image: "/public/jefferson.png",
+    url: "https://denyshv1.github.io/team-portfolio-js/",
   },
   {
     id: 3,
-    title: 'Team Project 3',
-    image: '/public/watch.png',
-    url: 'https://alisa777gul.github.io/project-SmartCats/',
+    title: "Team Project 3",
+    image: "/public/watch.png",
+    url: "https://alisa777gul.github.io/project-SmartCats/",
   },
 ];
 
 const personalProjects = [
   {
     id: 1,
-    title: 'Personal Project 1',
-    image: '/public/groom.png',
-    url: 'https://didykgroom.com/',
+    title: "Personal Project 1",
+    image: "/public/groom.png",
+    url: "https://didykgroom.com/",
   },
   {
     id: 2,
-    title: 'Personal Project 2',
-    image: '/public/weather.png',
-    url: 'https://weather-app-ten-pi-90.vercel.app/',
+    title: "Personal Project 2",
+    image: "/public/weather.png",
+    url: "https://weather-app-ten-pi-90.vercel.app/",
   },
   {
     id: 3,
-    title: 'Personal Project 3',
-    image: '/public/studio.png',
-    url: 'https://oholeh22.github.io/goit-markup-hw-06/',
+    title: "Personal Project 3",
+    image: "/public/studio.png",
+    url: "https://oholeh22.github.io/goit-markup-hw-06/",
   },
   {
     id: 4,
-    title: 'Personal Project 4',
-    image: '/public/gallery.png',
-    url: 'https://oholeh22.github.io/goit-js-hw-12/',
+    title: "Personal Project 4",
+    image: "/public/gallery.png",
+    url: "https://oholeh22.github.io/goit-js-hw-12/",
   },
 ];
 
 const MyProjects = () => {
-    const { t } = useTranslation();
-    const [teamVisible, setTeamVisible] = useState(2);
-    const [personalVisible, setPersonalVisible] = useState(2);
+  const { t } = useTranslation();
+  const [teamVisible, setTeamVisible] = useState(2);
+  const [personalVisible, setPersonalVisible] = useState(2);
 
-    const loadMoreTeam = () => {
-        setTeamVisible(prev => Math.min(prev + 2, teamProjects.length));
-      };
-      
-      const loadMorePersonal = () => {
-        setPersonalVisible(prev => Math.min(prev + 2, personalProjects.length));
-      };
+  const loadMoreTeam = () => {
+    setTeamVisible((prev) => Math.min(prev + 2, teamProjects.length));
+  };
+
+  const loadMorePersonal = () => {
+    setPersonalVisible((prev) => Math.min(prev + 2, personalProjects.length));
+  };
 
   return (
     <section className={css.myProjectsSection} id="my-project">
@@ -70,7 +70,7 @@ const MyProjects = () => {
         <div className={css.column}>
           <h3 className={css.columnTitle}>{t("teamProjects")}</h3>
           <div className={css.projectsGrid}>
-            {teamProjects.slice(0, teamVisible).map(project => (
+            {teamProjects.slice(0, teamVisible).map((project) => (
               <div key={project.id} className={css.projectCard}>
                 <img
                   src={project.image}
@@ -78,7 +78,7 @@ const MyProjects = () => {
                   className={css.projectImage}
                 />
                 <button
-                  onClick={() => window.open(project.url, '_blank')}
+                  onClick={() => window.open(project.url, "_blank")}
                   className={css.projectButton}
                 >
                   {t("view")}
@@ -95,7 +95,7 @@ const MyProjects = () => {
         <div className={css.column}>
           <h3 className={css.columnTitle}>{t("personalProjects")}</h3>
           <div className={css.projectsGrid}>
-            {personalProjects.slice(0, personalVisible).map(project => (
+            {personalProjects.slice(0, personalVisible).map((project) => (
               <div key={project.id} className={css.projectCard}>
                 <img
                   src={project.image}
@@ -103,7 +103,7 @@ const MyProjects = () => {
                   className={css.projectImage}
                 />
                 <button
-                  onClick={() => window.open(project.url, '_blank')}
+                  onClick={() => window.open(project.url, "_blank")}
                   className={css.projectButton}
                 >
                   {t("view")}
