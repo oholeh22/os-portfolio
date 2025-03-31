@@ -2,8 +2,8 @@ import React from "react";
 import Logo from "../Logo/Logo";
 import css from "./Header.module.css";
 import { useTranslation } from "react-i18next";
-import gbFlag from "../../assets/gb.svg";
-import uaFlag from "../../assets/ua.svg";
+import gbFlag from "../../../public/assets/gb.svg";
+import uaFlag from "../../../public/assets/ua.svg";
 
 const Header = () => {
   const { t, i18n } = useTranslation();
