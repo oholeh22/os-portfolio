@@ -31,11 +31,7 @@ const Contacts = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img
-            src="/assets/linkedin.svg"
-            alt="LinkedIn"
-            className={css.icon}
-          />
+          <img src="/assets/linkedin.svg" alt="LinkedIn" className={css.icon} />
         </a>
         <a
           href="https://www.instagram.com/shyian10"
@@ -60,11 +56,7 @@ const Contacts = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img
-            src="/assets/telegram.svg"
-            alt="Telegram"
-            className={css.icon}
-          />
+          <img src="/assets/telegram.svg" alt="Telegram" className={css.icon} />
         </a>
       </div>
 
@@ -77,7 +69,12 @@ const Contacts = () => {
         <span>Amsterdam, Netherlands</span>
       </div>
 
-      <a href="/public/Oleh_Shyian_JuniorFrontendDeveloper.pdf" download className={css.resumeButton}>
+      <a
+        href="https://drive.google.com/file/d/1s7VTPAguH-pwp20QVur_6jPZur-fdAdA/view"
+        target="_blank"
+        rel="noopener noreferrer"
+        className={css.resumeButton}
+      >
         Download Resume
       </a>
     </section>
