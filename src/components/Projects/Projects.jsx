@@ -31,10 +31,10 @@ const personalProjects = [
     url: "https://didykgroom.com/",
   },
   {
-    id: 2,
+    id: 5,
     title: "Personal Project 2",
-    image: "/weather.png",
-    url: "https://weather-app-ten-pi-90.vercel.app/",
+    image: "/rentalcar.png",
+    url: "https://rental-car-seven-rose.vercel.app/"
   },
   {
     id: 3,
@@ -48,6 +48,12 @@ const personalProjects = [
     image: "/gallery.png",
     url: "https://oholeh22.github.io/goit-js-hw-12/",
   },
+  {
+    id: 5,
+    title: "Personal Project 5",
+    image: "/weather.png",
+    url: "https://weather-app-ten-pi-90.vercel.app/",
+  }
 ];
 
 const MyProjects = () => {
