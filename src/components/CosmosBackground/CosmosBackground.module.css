@@ -1,27 +1,20 @@
-.backgroundContainer {
-  position: fixed;
+.cosmosBg {
+  position: fixed; 
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  z-index: -1;
+  width: 100vw;
+  height: 100vh;
+  background: radial-gradient(circle at 20% 20%, #0a0a0a, #ff6a00, #493112);
+  filter: blur(8px);
+  animation: backgroundMove 30s ease infinite;
+  z-index: -1; 
 }
 
-.backgroundImage {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-image: url("/stars-sky.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.canvasElement {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+@keyframes backgroundMove {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
 }
