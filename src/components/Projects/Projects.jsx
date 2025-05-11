@@ -31,6 +31,12 @@ const personalProjects = [
     url: "https://didykgroom.com/",
   },
   {
+    id: 6,
+    title: "Personal Project 6",
+    image: "/housestaff.png",
+    url: "https://shop-ecommerce-psi.vercel.app/",
+  },
+  {
     id: 5,
     title: "Personal Project 2",
     image: "/rentalcar.png",
@@ -53,7 +59,7 @@ const personalProjects = [
     title: "Personal Project 5",
     image: "/weather.png",
     url: "https://weather-app-ten-pi-90.vercel.app/",
-  }
+  },
 ];
 
 const MyProjects = () => {
